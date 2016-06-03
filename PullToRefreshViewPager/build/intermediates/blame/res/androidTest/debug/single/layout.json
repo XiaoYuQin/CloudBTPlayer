@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshViewPager\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshViewPager\\build\\intermediates\\exploded-aar\\CloudBTPlayer\\PullToRefresh\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshViewPager\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\need_this_for_maven.xml",
+        "source": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshViewPager\\build\\intermediates\\bundles\\debug\\res\\layout\\need_this_for_maven.xml"
+    },
+    {
+        "merged": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshViewPager\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshViewPager\\build\\intermediates\\exploded-aar\\CloudBTPlayer\\PullToRefresh\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    }
+]

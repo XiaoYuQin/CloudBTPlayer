@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5px"
+        android:background="@color/LineColor"></View>
+
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#F6F6F6"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            style="@style/BarIcon"
+            android:checked="true"
+            android:drawableTop="@drawable/icon_home_sel"
+            android:text="@string/BarHome" />
+
+        <RadioButton
+            android:id="@+id/rb_stars"
+            style="@style/BarIcon"
+            android:drawableTop="@drawable/icon_home_sel"
+            android:text="@string/BarStars" />
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/BarIcon"
+            android:drawableTop="@drawable/icon_home_sel"
+            android:text="@string/BarSetting" />
+    </RadioGroup>
+
+</LinearLayout>

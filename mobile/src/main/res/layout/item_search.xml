@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_search_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="独立日独立日独立日独立日独立日独立日独立日独立日独立日独立日独立日独立日"
+        android:singleLine="true"
+        android:ellipsize="middle"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_search_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_search_title"
+        android:layout_marginTop="4dp"
+        android:textSize="12sp"
+        android:text="2015-03-04" />
+
+    <TextView
+        android:id="@+id/tv_search_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_search_title"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:textSize="12sp"
+        android:layout_toRightOf="@id/tv_search_date"
+        android:text="13.06G" />
+
+    <TextView
+        android:id="@+id/tv_search_hot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_search_title"
+        android:layout_marginLeft="8dp"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/tv_search_size"
+        android:text="15" />
+
+</RelativeLayout>

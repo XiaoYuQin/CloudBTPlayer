@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/iv_home_hot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/avatar_default"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="2dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_home_score"
+        android:background="@color/GreenColor"
+        android:text="9.8"
+
+        />
+
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_home_title"
+        android:text="疯狂动物城"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_home_hot"
+        android:singleLine="true"
+        android:ellipsize="end"
+        />
+
+</RelativeLayout>

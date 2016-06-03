@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshListFragment\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshListFragment\\build\\intermediates\\exploded-aar\\CloudBTPlayer\\PullToRefresh\\unspecified\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshListFragment\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshListFragment\\build\\intermediates\\exploded-aar\\CloudBTPlayer\\PullToRefresh\\unspecified\\res\\drawable\\indicator_bg_bottom.xml"
+    }
+]

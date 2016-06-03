@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshViewPager\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\default_ptr_flip.png",
+        "source": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshViewPager\\build\\intermediates\\exploded-aar\\CloudBTPlayer\\PullToRefresh\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_flip.png"
+    },
+    {
+        "merged": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshViewPager\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\default_ptr_rotate.png",
+        "source": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshViewPager\\build\\intermediates\\exploded-aar\\CloudBTPlayer\\PullToRefresh\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshViewPager\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\indicator_arrow.png",
+        "source": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshViewPager\\build\\intermediates\\exploded-aar\\CloudBTPlayer\\PullToRefresh\\unspecified\\res\\drawable-mdpi-v4\\indicator_arrow.png"
+    }
+]

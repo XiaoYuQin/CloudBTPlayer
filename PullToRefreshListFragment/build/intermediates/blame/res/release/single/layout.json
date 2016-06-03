@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshListFragment\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshListFragment\\build\\intermediates\\exploded-aar\\CloudBTPlayer\\PullToRefresh\\unspecified\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshListFragment\\build\\intermediates\\res\\merged\\release\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshListFragment\\build\\intermediates\\exploded-aar\\CloudBTPlayer\\PullToRefresh\\unspecified\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshListFragment\\build\\intermediates\\res\\merged\\release\\layout\\need_this_for_maven.xml",
+        "source": "C:\\WorkspacesASProject\\CloudBTPlayer\\PullToRefreshListFragment\\res\\layout\\need_this_for_maven.xml"
+    }
+]

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">云播</string>
+    <string name="SearhHint">输入要搜索的影视名字</string>
+    <string name="BarHome">首页</string>
+    <string name="BarStars">收藏</string>
+    <string name="BarSetting">设置</string>
+</resources>

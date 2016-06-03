@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="38dp"
+    android:id="@+id/ll_search_box"
+    android:layout_marginTop="8dp"
+    >
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:id="@+id/et_search_key"
+        android:background="@drawable/box_rang"
+        android:drawableLeft="@mipmap/search"
+        android:paddingLeft="8dp"
+        android:singleLine="true"
+        android:drawablePadding="4dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="@color/TextDefaultColor"
+        android:layout_marginRight="8dp"
+        android:imeOptions="actionSearch"
+        android:hint="@string/SearhHint"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="取消"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:id="@+id/tv_search_cancel"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        />
+
+</LinearLayout>

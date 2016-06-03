@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'litdev'
+            keyPassword 'litdev666'
+            storeFile file('C:/Users/litde/Documents/as_keystore.jks')
+            storePassword 'litdev666'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+    defaultConfig {
+        applicationId "net.litdev.cloudbtplayer"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'fm.jiecao:jiecaovideoplayer:3.1'
+    compile files('libs/universal-image-loader-1.9.5.jar')
+    compile project(':PullToRefreshListFragment')
+    compile project(':PullToRefreshViewPager')
+    compile files('libs/volley.jar')
+    compile 'org.jsoup:jsoup:1.9.2'
+    compile files('libs/fastjson-1.2.8.jar')
+}
